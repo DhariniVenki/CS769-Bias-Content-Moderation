@@ -273,16 +273,16 @@ the package and the tests import without them.
 ## 9. Runtime: Colab via GitHub
 
 ```
-local edits ──git push──▶ github.com/shreyasnat2804/bias-compare-poc (public) ──git clone/pull──▶ Colab
+local edits ──git push──▶ github.com/DhariniVenki/CS769-Bias-Content-Moderation (public) ──git clone/pull──▶ Colab
 ```
 
 - Open the notebook from GitHub in Colab.
-- First cell: clone or pull the repo into `/content/bias-compare-poc`,
+- First cell: clone or pull the repo into `/content/CS769-Bias-Content-Moderation`,
   `pip install -e`, `%autoreload 2`. Re-running it picks up pushed changes;
   restart the runtime after changes to dataclasses or top-level imports.
 - Outside Colab the cell assumes it runs from the repo root and skips the clone.
 - CPU is sufficient (2 BERT-base models × 10 posts × 7 variants); a GPU is used if present.
-- Repository: https://github.com/shreyasnat2804/bias-compare-poc (public).
+- Repository: https://github.com/DhariniVenki/CS769-Bias-Content-Moderation (public).
 
 ## 10. Deviations from the paper (state these in any write-up)
 

@@ -15,7 +15,7 @@ building this, and why — including the exact statistics (§6) and output JSON 
 ## Quickstart: Google Colab
 
 1. Open the notebook in Colab:
-   [colab.research.google.com/github/shreyasnat2804/bias-compare-poc/blob/main/poc.ipynb](https://colab.research.google.com/github/shreyasnat2804/bias-compare-poc/blob/main/poc.ipynb)
+   [colab.research.google.com/github/DhariniVenki/CS769-Bias-Content-Moderation/blob/main/poc.ipynb](https://colab.research.google.com/github/DhariniVenki/CS769-Bias-Content-Moderation/blob/main/poc.ipynb)
 2. Run the cells top to bottom. The first cell clones the repo into `/content/` and
    installs the package; re-run it any time to pull newly pushed changes, and restart the
    runtime after any change to a dataclass or a top-level import (see the notebook's setup
